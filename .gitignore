@@ -1,0 +1,26 @@
+**/target/
+**/bin/
+!.mvn/wrapper/maven-wrapper.jar
+ 
+
+### Eclipse ###
+
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.recommenders
+.metadata
+
+### IntelliJ IDEA ###
+
+.idea
+*.iws
+*.iml
+
+### MacOS ###
+
+.DS_Store
