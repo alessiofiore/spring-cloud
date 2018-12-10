@@ -8,5 +8,10 @@ spring:
           uri: https://github.com/alessiofiore/spring-cloud.git
           cloneOnStart: true
           searchPaths: config
+  security:
+    user:
+      name: admin
+      password: admin123
+    
 server:
   port: ${PORT:8081}
