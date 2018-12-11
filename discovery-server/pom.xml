@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.springcloud</groupId>
-	<artifactId>discovery-server</artifactId>
+	<artifactId>discovery</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
 	<name>discovery-server</name>
