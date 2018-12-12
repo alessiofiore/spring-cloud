@@ -5,6 +5,6 @@ eureka:
         zone: zone1
   client:
     serviceUrl:
-      defaultZone: http://peer2:8071/eureka/
+      defaultZone: http://localhost:8071/eureka/
 server:
     port: ${PORT:8070}
