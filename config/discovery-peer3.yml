@@ -1,0 +1,10 @@
+eureka:
+  instance:
+    hostname: peer3
+    metadataMap:
+        zone: zone3
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka/,http://localhost:8071/eureka/
+server:
+    port: ${PORT:8070}

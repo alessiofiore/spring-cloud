@@ -4,3 +4,6 @@ eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
+    
+server:
+  port: ${PORT:8070}
