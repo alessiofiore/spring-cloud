@@ -2,6 +2,5 @@ zuul:
     routes:
         product-service:
             path: /products/**
-            stripPrefix: false
         customer-service:
             path: /customers/**
