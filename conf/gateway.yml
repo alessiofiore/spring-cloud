@@ -1,10 +1,6 @@
-################################################################
-## Zuul properties
-################################################################
-
 zuul:
     routes:
-        product:
+        product-service:
             path: /products/**
-        customer:
+        customer-service:
             path: /customers/**
