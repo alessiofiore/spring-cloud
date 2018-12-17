@@ -19,7 +19,7 @@ import com.springcloud.customer.service.CustomerService;
  */
 
 @RestController
-@RequestMapping("/products")
+@RequestMapping("/customers")
 public class CustomerController {
 	
 	@Autowired
