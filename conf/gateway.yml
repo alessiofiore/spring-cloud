@@ -1,6 +1,4 @@
 zuul:
     routes:
-        product-service:
-            path: /products/**
-        customer-service:
-            path: /customers/**
+        product-service: /products/**
+        customer-service: /customers/**
