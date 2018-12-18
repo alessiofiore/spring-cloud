@@ -9,9 +9,9 @@ spring:
 
 eureka:
   client:
+    registerWithEureka: false
     serviceUrl:
       defaultZone: http://localhost:8070/eureka/
-      registerWithEureka: false
         
 server:
   port: ${PORT:8080}
