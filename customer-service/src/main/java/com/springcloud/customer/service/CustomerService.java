@@ -19,16 +19,16 @@ import com.springcloud.customer.model.Customer;
 @Service
 public class CustomerService {
 
-	private List<Customer> products;
+	private List<Customer> customers;
 	
 	@PostConstruct
 	private void init() {
-		products = new ArrayList<>();
-		products.add(new Customer(1, "Customer 1"));
-		products.add(new Customer(2, "Customer 2"));
+		customers = new ArrayList<>();
+		customers.add(new Customer(1, "Customer 1"));
+		customers.add(new Customer(2, "Customer 2"));
 	}
 	
 	public Optional<Customer> findById(Integer id) {
-		return products.stream().filter(p -> p.getId().equals(id)).findFirst();
+		return customers.stream().filter(p -> p.getId().equals(id)).findFirst();
 	}
 }
