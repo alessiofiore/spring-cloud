@@ -41,8 +41,7 @@ public class OrderService {
 		return order;
 	}
 	
-	public Order prepareFallback(Order order) {
-		Product p = productClient.findById(order.getProductId());		
+	public Order prepareFallback(Order order) {	
 		order.setPrice(priceDefault);		
 		orders.add(order);		
 		return order;
