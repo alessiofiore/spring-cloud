@@ -2,3 +2,4 @@ zuul:
     routes:
         product-service: /products/**
         customer-service: /customers/**
+        customer-service: /orders/**

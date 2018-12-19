@@ -18,9 +18,17 @@ public class DemoApplication {
 	
 	@Value("${config.name}")
 	private String value;
+	
+	@Value("${server.port}")
+	private String port;
 
 	@GetMapping("/")
 	public String hello() {
 		return value;
+	}
+	
+	@GetMapping("/port")
+	public String port() {
+		return port;
 	}
 }
