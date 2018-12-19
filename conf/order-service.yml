@@ -7,3 +7,6 @@ product-service:
 price:
     default: 9.99
     discount: 10
+feign:
+  hystrix:
+    enabled: true
