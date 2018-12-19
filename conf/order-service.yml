@@ -3,7 +3,6 @@ product-service:
     listOfServers: localhost:9090,localhost:9091
     NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
     NFLoadBalancerPingClassName: com.netflix.loadbalancer.NoOpPing
-    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule
     
 price:
     default: 9.99
