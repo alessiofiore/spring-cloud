@@ -1,6 +1,7 @@
 product-service:
   ribbon:
     listOfServers: localhost:9090,localhost:9091
+    NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
 
 
 price:
